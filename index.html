@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Alan Ibarra - Login UI</title>
+  </head>
+  <body>
+    <main class="login">
+      <div class="login-header">
+        <h1>Login</h1>
+      </div>
+      <form class="login-form">
+        <div class="login-form-input">
+          <label for="username">Username</label>
+          <div class="login-form-icon-wrapper">
+            <input type="text" id="username" />
+            <i class="fa fa-user login-form-icon"></i>
+          </div>
+        </div>
+        <div class="login-form-input">
+          <label for="password">Password</label>
+          <div class="login-form-icon-wrapper">
+            <input type="password" id="password" />
+            <i class="fa fa-lock login-form-icon"></i>
+          </div>
+        </div>
+        <div class="login-form-options">
+          <div class="login-form-option">
+            <label for="remember">Remember me</label>
+            <input id="remember" type="checkbox" />
+          </div>
+          <button class="login-form-reset">Reset password</button>
+        </div>
+        <button class="login-button" type="submit">Login</button>
+      </form>
+      <div class="login-seperator">
+        <span class="line"></span>
+        <span>Or</span>
+        <span class="line"></span>
+      </div>
+      <div class="login-socials">
+        <button class="login-social">
+          <i class="fa fa-google"></i>
+        </button>
+        <button class="login-social">
+          <i class="fa fa-facebook"></i>
+        </button>
+        <button class="login-social">
+          <i class="fa fa-linkedin"></i>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>

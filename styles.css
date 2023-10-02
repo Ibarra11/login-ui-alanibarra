@@ -1,0 +1,111 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #f3f4f7;
+  background-image: linear-gradient(315deg, #f3f4f7 0%, #caccd1 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.login {
+  min-width: 375px;
+  background-color: #fffafa;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  color: #36454f;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.login-header h1 {
+  font-size: 32px;
+}
+
+.login-form > :not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.login-form-input label {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.login-form-input input {
+  padding-left: 24px;
+  padding-block: 12px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.login-form-icon-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.login-form-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 8px;
+  font-size: 18px !important;
+}
+
+.login-form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-form-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-form-reset {
+  height: 32px;
+}
+
+.login-button {
+  display: block;
+  width: 100%;
+  padding-block: 12px;
+  background-color: #36454f;
+  color: white;
+  border-radius: 8px;
+}
+
+.login-seperator {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-block: 24px;
+}
+.login-seperator .line {
+  height: 1px;
+  background-color: #000000;
+  flex: 1;
+}
+
+.login-socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.login-social {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border: 1px solid #36454f;
+}
